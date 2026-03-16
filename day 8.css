@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+
+body{
+background-color: darkgrey;
+}
+
+h1{
+color: blue;
+text-align: center;
+}
+
+.box{
+border: 4px solid black;
+padding: 25px;
+margin: 15px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>My Styled Page</h1>
+
+<p class="box">This is my first CSS class</p>
+
+<p class="box">Learning CSS is  okay</p>
+
+</body>
+
+</html>
