@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>My Website</title>
+
+<style>
+body{
+margin: 0;
+font-family: Arial;
+background-color: #f2f2f2;
+}
+
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: black;
+padding: 15px 30px;
+}
+
+.logo{
+color: white;
+font-size: 20px;
+}
+
+.links{
+display: flex;
+gap: 20px;
+}
+
+.links a{
+color: white;
+text-decoration: none;
+font-size: 16px;
+}
+
+.links a:hover{
+color: yellow;
+}
+
+.container{
+display: flex;
+gap: 20px;
+padding: 20px;
+}
+
+.box{
+flex: 1;
+border: 2px solid black;
+padding: 20px;
+background-color: white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+<div class="logo">MySite</div>
+
+<div class="links">
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</div>
+
+</div>
+
+<div class="container">
+
+<div class="box">
+<h2>Welcome</h2>
+<p>This is my first real website layout using Flexbox.</p>
+</div>
+
+<div class="box">
+<h2>About Me</h2>
+<p>I am learning HTML and CSS step by step.</p>
+</div>
+
+</div>
+
+</body>
+</html>
