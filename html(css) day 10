@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>My Website</title>
+
+<style>
+body{
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+background-color: grey;
+}
+
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: white;
+padding: 10px;
+}
+
+.logo{
+color: blue;
+font-size: 20px;
+}
+
+.links{
+display: flex;
+gap: 20px;
+}
+
+.links a{
+color: black;
+text-decoration: none;
+font-size: 16px;
+}
+
+.links a:hover{
+color: red;
+}
+
+.container{
+display: flex;
+gap: 20px;
+padding: 20px;
+}
+
+.footer{
+background-color: black;
+color: white;
+text-align: center;
+padding: 15px;
+margin-top: 20px;
+}
+
+.box{
+flex: 1;
+border: 2px solid black;
+padding: 20px;
+background-color: white;
+box-shadow: 0px 0px 10px gray;
+border-radius: 10px;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+<div class="logo">Website</div>
+
+<div class="links">
+<a href="#">projects</a>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</div>
+
+</div>
+
+<div class="container">
+
+<div class="box">
+<h2>hii iam pranati</h2>
+<p>This is my first time building website layout using Flexbox.</p>
+</div>
+
+<div class="box">
+<h2>About Me</h2>
+<p>I am learning HTML and CSS step by step.</p>
+</div>
+</div>
+<div class="footer">
+<p>© 2026 Pranati | All Rights Reserved</p>
+</div>
+
+</body>
+</html>
